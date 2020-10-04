@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: openapi
+
+feign:
+  client:
+    config:
+      marvel:
+        url: https://gateway.marvel.com/
+        connectTimeout: 1000
+        readTimeout: 1000
+        loggerLevel: FULL
